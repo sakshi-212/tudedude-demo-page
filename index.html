@@ -1,21 +1,313 @@
-<!DOCTYPE <html>
-    <head>
-        <title>
-            Tutedude Demo Page
-        </title>
-    </head>
-    <body>
-        <header>
-            <h1>Tutedude HTML Learning Demo Page</h1>
-            <p>
-                Learn HTML With <Strong>Tutedude</Strong>
-            </p>
-            <nav>
-                <a href=""></a> 
-            </nav>
-        </header>
-        <main>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur inventore, alias doloribus voluptatem iure ipsum omnis et magni nemo facilis reiciendis id quas explicabo praesentium molestias, laudantium adipisci eveniet provident.</p>
-        </main>
-    </body>
+<!doctype html>
+<html>
+  <head>
+    <title>Tutedude Demo Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div style="display:flex; align-items: center;">
+        <img style="height: 40px;" src="./taco_img.png" alt="">
+        <h1>
+          Welcome to <span class="higlight">Tutedude</span>
+        </h1>
+        <img style="height: 40px;" src="./taco_img.png" alt="">
+      </div>
+
+      <p>
+        A Project designed by <span class="bold">TuteDude</span> to learn
+        <i>Html</i>
+      </p>
+
+      <p id="para">Best Tutedude in town since 2021</p>
+    </header>
+
+    <main>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#ourMenu">Our Menu</a></li>
+          <li><a href="#tacoTrivia">Taco Trivia</a></li>
+          <li><a href="#MediaFun">Media Fun</a></li>
+          <li><a href="#feedbackForm">Feedback Form</a></li>
+          <li><a href="#Extras">extras</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <figure>
+        <img src="1739779901phpxOdKq8.jpeg" alt="Tutedude" width="600px" />
+        <figcaption>TudeDude and a Drink</figcaption>
+      </figure>
+
+      <hr />
+
+      <h2 id="about">About <span>TD</span></h2>
+
+      <p class="About-TD">
+        LTD was founded in 2021.This demo project was created by
+        <b>TuteDude</b> for learning all major HTML tags.
+      </p>
+
+      <p class="center">
+        Level up your career with expert mentorship & interships for FREE
+      </p>
+
+      <hr />
+
+      <h2 id="ourMenu">Our Menu</h2>
+
+      <table>
+        <caption>
+          <b>TuteDude Complete Taco Menu</b>
+        </caption>
+
+        <tr>
+          <th rowspan="2">Category</th>
+          <th rowspan="2">Type</th>
+          <th colspan="2">Small Portion</th>
+          <th colspan="2">Large Portion</th>
+        </tr>
+
+        <tr>
+          <td colspan="1"><b>QTY</b></td>
+          <td colspan="1"><b>Price</b></td>
+          <td colspan="1"><b>QTY</b></td>
+          <td colspan="1"><b>Price</b></td>
+        </tr>
+
+        <tr>
+          <td rowspan="3">
+            <b>TuteDude</b>
+
+            <td>Crunchy(Beef)</td>
+            <td>1</td>
+            <td>$1.50</td>
+            <td>3</td>
+            <td>$3.25</td>
+
+            <tr>
+              <td>Crunchy(Chicken)</td>
+              <td>1</td>
+              <td>$1.75</td>
+              <td>3</td>
+              <td>$3.50</td>
+            </tr>
+
+            <tr>
+              <td>
+                Crunchy (Veggie)
+                <br>
+
+                <table>
+                  <caption>
+                    <i>Nutrition Info</i>
+                  </caption>
+
+                  <tr>
+                    <th>Nutrient</th>
+                    <th>Value</th>
+                  </tr>
+
+                  <tr>
+                    <td>Calories</td>
+                    <td>150 Kcal</td>
+                  </tr>
+
+                  <tr>
+                    <td>Protein</td>
+                    <td>5 g</td>
+                  </tr>
+
+                  <tr>
+                    <td>Fiber</td>
+                    <td>4 g</td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>1</td>
+              <td>$1.25</td>
+              <td>3</td>
+              <td>$3.00</td>
+            </tr>
+          </td>
+        </tr>
+
+        <tr>
+          <td rowspan="2"><b>Soft TuteDude</b></td>
+          <td>Soft (Beef)</td>
+          <td>2</td>
+          <td>$3.50</td>
+          <td>4</td>
+          <td>$6.50</td>
+        </tr>
+
+        <tr>
+          <td>Soft (Veggie)</td>
+          <td>2</td>
+          <td>$3.00</td>
+          <td>4</td>
+          <td>$5.50</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2"><b>Combos</b></td>
+          <td>2 Crunchy + Drink</td>
+          <td colspan="2">$4.50</td>
+          <td colspan="2" rowspan="2">N/A</td>
+        </tr>
+
+        <tr>
+          <td>
+            2 Soft + Drink
+            <br>
+
+            <table>
+              <caption>
+                <i>Combo Meals Nutrition <br>Facts</i>
+              </caption>
+
+              <tr>
+                <th>Item</th>
+                <th>Calories</th>
+                <th>Sugar</th>
+              </tr>
+
+              <tr>
+                <td>Soft Taco</td>
+                <td>200 Kcal</td>
+                <td>2 g</td>
+              </tr>
+
+              <tr>
+                <td>Drink</td>
+                <td>120 Kcal</td>
+                <td>25 g</td>
+              </tr>
+
+              <tr>
+                <td><b>Total</b></td>
+                <td><b>320 Kcal</b></td>
+                <td>27 g</td>
+              </tr>
+            </table>
+          </td>
+
+          <td colspan="2">$5.00</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2"><b>Extras</b></td>
+          <td>Chips & Salsa</td>
+          <td colspan="4">$2.00</td>
+        </tr>
+
+        <tr>
+          <td>Guacamole</td>
+          <td colspan="4">$1.50</td>
+        </tr>
+
+        <tr>
+          <td colspan="6">
+            <b>Average Meal Price Range: $2.00 - $6.50</b>
+          </td>
+        </tr>
+      </table>
+
+      <p>
+        <a href="#top">&uarr;Back to Top</a>
+      </p>
+
+      <hr>
+
+      <h2 id="tacoTrivia">Taco Trivia</h2>
+
+      <details>
+        <summary>
+          When did TuteDude First appear in the United States?
+        </summary>
+      </details>
+
+      <hr>
+
+      <h2 id="MediaFun">Media Fun</h2>
+
+      <h3>Listen to Taco Music</h3>
+
+      <audio controls>
+        <source src="taco-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Watch Taco Video</h3>
+
+      <video width="400" controls>
+        <source src="taco-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </main>
+    <hr>
+
+    <footer>
+      <h1 id="feedbackForm">Give Us Your Feedback</h1>
+
+      <form>
+        <fieldset>
+          <legend>Your Info</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <br><br>
+
+          <label for="favorite">Favorite Taco:</label>
+          <select id="favorite" name="favorite">
+            <option>Crunchy</option>
+            <option>Soft</option>
+            <option>Veggie</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend id="Extras">Your Message</legend>
+
+          <label for="message">Message:</label>
+          <br>
+
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="40"></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+      </form>
+
+      <hr>
+
+      <h1 id="contact">Contact Us</h1>
+
+      <address>
+        <strong>TuteDude</strong><br>
+        123 Taco Street<br>
+        Taco Town, TX 75000<br>
+
+        <a href="mailto:info@tutedude.com">
+          info@tutedude.com
+        </a>
+      </address>
+
+      <p>
+        © 2025 TuteDude. All rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>
