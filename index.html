@@ -6,6 +6,12 @@
   </head>
 
   <body>
+    <style>body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    }</style>
     <header>
       <div style="display:flex; align-items: center;">
         <img style="height: 40px;" src="./taco_img.png" alt="">
@@ -23,7 +29,21 @@
     </header>
 
     <main>
-      <nav>
+      <nav> <style>
+              nav {
+               display: flex;
+               gap: 15px;
+               font-weight: bold;
+              }
+              .higlight{
+                background-color: #d4c55a;
+                padding: 2px 8px;
+                border-radius: 4px;
+              }
+              .bold{
+                font-weight: bold;
+              }
+            </style>
         <ul>
 
           <li><a href="#about">About</a></li>
@@ -44,6 +64,26 @@
       <hr />
 
       <h2 id="about">About <span>TD</span></h2>
+      <style>
+        h2 span{
+          background-position: center;
+          text-decoration: underline dotted;
+        }
+       .center{
+          text-align: left;
+          padding-left: 40px;
+        }
+        #para{
+          font-weight: bold;
+          background-color: aqua;
+          display: inline-block;
+          padding: 10px;
+          border-radius: 10px;
+        }
+        h2{
+            margin-left: 20px;
+        }
+      </style>
 
       <p class="About-TD">
         LTD was founded in 2021.This demo project was created by
@@ -59,6 +99,17 @@
       <h2 id="ourMenu">Our Menu</h2>
 
       <table>
+        <style>
+          table{
+              border-collapse: collapse;
+              width: 80%;
+          }
+          table, th,td{
+              border: 1px solid black;
+              padding: 5px;
+              text-align: center;
+          }
+        </style>
         <caption>
           <b>TuteDude Complete Taco Menu</b>
         </caption>
